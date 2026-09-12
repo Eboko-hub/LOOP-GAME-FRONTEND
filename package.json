@@ -1,0 +1,8 @@
+{
+  "name":"loop-game-frontend",
+  "private":true,
+  "version":"2.0.0",
+  "description":"LOOP GAME competitive strategy PWA frontend",
+  "type":"module",
+  "scripts":{"check":"node --check js/main.js && node --check js/state.js && node --check js/api.js && node --check js/ws.js && node --check js/ui.js && node --check js/board.js && node --check js/screens.js"}
+}
