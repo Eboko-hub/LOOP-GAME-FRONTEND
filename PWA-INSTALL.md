@@ -1,13 +1,9 @@
-# Installer LOOP GAME comme PWA
+# Installation PWA
 
-## Android
+1. Publier le contenu à la racine du dépôt GitHub.
+2. Activer GitHub Pages sur la branche publiée.
+3. Ouvrir l'URL HTTPS avec Safari ou Chrome.
+4. Sur iPhone : Partager → Ajouter à l'écran d'accueil.
+5. Sur Android : menu du navigateur → Installer l'application, selon le navigateur.
 
-Ouvrir l'URL HTTPS du site dans Chrome → menu ⋮ → `Installer l'application` ou `Ajouter à l'écran d'accueil`.
-
-## iPhone / iPad
-
-Ouvrir l'URL HTTPS dans Safari → bouton Partager → `Ajouter à l'écran d'accueil` → `Ajouter`.
-
-## Conditions
-
-Le site doit être servi en HTTPS. Le manifest et le Service Worker doivent être accessibles depuis la même origine que l'application.
+Le fichier `index.html` doit être à la racine du site.
