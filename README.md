@@ -1,22 +1,16 @@
-# LOOP GAME — Frontend PWA
+# LOOP GAME — Frontend PWA GitHub Pages
 
-Frontend web progressif de LOOP GAME.
+Frontend web progressif de LOOP GAME, compatible GitHub Pages.
 
 ## Structure
 
-- `index.html` : point d'entrée PWA
-- `js/app.js` : interface et logique client
-- `css/app.css` : interface responsive
-- `manifest.webmanifest` : installation PWA
-- `sw.js` : cache hors-ligne et mise à jour du shell
-- `icons/` : icônes PWA
+- `index.html` — point d'entrée
+- `app.js` — application frontend
+- `app.css` — interface
+- `manifest.webmanifest` — installation PWA
+- `sw.js` — cache/service worker
+- `icon-192.png`, `icon-512.png` — icônes PWA
 
-## GitHub Pages
+## Backend
 
-Publier le contenu de ce dossier à la racine du dépôt. Le fichier `index.html` doit rester à la racine.
-
-Le frontend peut fonctionner en mode démo local, puis être relié au backend LOOP GAME en configurant l'URL API depuis les paramètres.
-
-## Sécurité
-
-Le frontend ne reçoit jamais la géométrie interne des pièges invisibles. Les décisions de règles, captures et pièges doivent rester autoritaires côté serveur.
+Le frontend utilise l'URL du serveur configurée dans les paramètres de l'application. GitHub Pages héberge uniquement les fichiers statiques et ne fournit pas l'API REST ni le WebSocket du jeu.
